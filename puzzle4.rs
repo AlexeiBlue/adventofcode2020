@@ -1,7 +1,7 @@
 use regex::Regex;
 
 fn main() {
-let input = fs::read_to_string("./puzzle4[input]").expect("Something went wrong reading the file");
+    let input = fs::read_to_string("./puzzle4[input]").expect("Something went wrong reading the file");
 
     let byr_re = Regex::new("byr:(\\d{4})\\b").unwrap();
     let iyr_re = Regex::new("iyr:(\\d{4})\\b").unwrap();

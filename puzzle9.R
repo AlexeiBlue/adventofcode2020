@@ -28,7 +28,7 @@ for(value in tail(input, length(input) - preamble)) {
 }
 
 # Part 1 answer
-print(firstInvalid)
+print(paste("Part 1", firstInvalid))
 
 contiguousTo <- startFrom + preamble - 1
 
@@ -47,4 +47,4 @@ repeat {
 }
 
 # Part 2 answer
-print(min(input[contiguousFrom:contiguousTo]) + max(input[contiguousFrom:contiguousTo]))
+print(paste("Part 2", min(input[contiguousFrom:contiguousTo]) + max(input[contiguousFrom:contiguousTo])))
