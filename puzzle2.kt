@@ -1,7 +1,7 @@
 import java.io.File
 
 /**
- * Main class, read the config, download offers from source, send offers to lotto topic.
+ * Main class
  */
 fun main(args: Array<String>) =
     println("Valid passwords: ${Puzzle(File(Puzzle::class.java.getResource("./puzzle2[input]").file)).validPasswords()}")
